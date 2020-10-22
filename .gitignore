@@ -1,4 +1,3 @@
 node_modules
-analyze_board.js
-analyze_game.js
+*.js
 *.json
