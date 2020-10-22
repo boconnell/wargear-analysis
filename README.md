@@ -6,6 +6,11 @@
 * Continents don't overlap
 * No special borders?
 
+## Side goals:
+As much as possible:
+* Use pure functional style (and ramda library where possible)
+* Rely on TS type inference (no explicit type casting)
+
 # Setup
 
 ## Install dependencies:
@@ -14,6 +19,7 @@
 nvm use
 npm install
 ```
+
 
 ## Compile
 
