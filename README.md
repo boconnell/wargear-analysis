@@ -30,7 +30,7 @@ tsx analyze_board.ts analyze_game.ts types.ts
 ## To analyze board:
 On a wargear page, open the dev console, refresh the game, and note the XHR request. It will include the board id
 
-Transform XML result from http://www.wargear.net/rest/GetBoardData/<board-id>>?player=js into JS with no prefixes
+Transform XML result from `http://www.wargear.net/rest/GetBoardData/<board-id>>?player=js` into JSON with no prefixes using an online conversion tool
 
 Place resulting JSON into this directory as board.js
 
